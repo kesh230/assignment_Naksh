@@ -418,6 +418,28 @@ Creates optimized production build in `dist/` folder.
   subtotal: Number
 }
 ```
+### Carts 
+```javascript
+{
+  _id: ObjectId,
+  userId: ObjectId,        // Reference to Users (_id)
+  totalItems: Number,      // Total distinct items in cart
+  totalAmount: Number,    // Calculated cart total
+  createdAt: Date,
+  updatedAt: Date
+}
+```
+### CartItems
+```javascript
+{
+  _id: ObjectId,
+  cartId: ObjectId,        // Reference to Cart (_id)
+  productId: ObjectId,     // Reference to Products (_id)
+  quantity: Number,
+  priceAtAdd: Number,     // Product price when added to cart
+  subtotal: Number,      
+  createdAt: Date
+}
 
 ---
 
