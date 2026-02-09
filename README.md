@@ -49,7 +49,7 @@ npm install
 
 **Configure .env file:**
 ```env
-MONGO_URI=mongodb+srv://keshchaurasiya448_db_user:448449447@cluster0.gnsqwmi.mongodb.net/?appName=Cluster0
+MONGO_URI=mongodb+srv://username:password@cluster0.gnsqwmi.mongodb.net/?appName=Cluster_name
 PORT=5000
 NODE_ENV=development
 ```
