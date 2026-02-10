@@ -440,6 +440,7 @@ Creates optimized production build in `dist/` folder.
   subtotal: Number,      
   createdAt: Date
 }
+```
 
 ---
 
